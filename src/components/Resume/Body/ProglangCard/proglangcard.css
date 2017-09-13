@@ -4,13 +4,13 @@
 	border-radius: 3px;
 	background-color: #fff;
 	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
-	padding: 20px;
 }
 
 .resume--body--proglang--card--wrapper {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 20px;
 }
 
 .resume--body--proglang--card--image {
@@ -42,4 +42,43 @@
 	font-size: 1.8em;
 	color: #5a5a5a;
 	margin-right: 10px;
+}
+
+.resume--body--proglang--card--details {
+	margin-top: 20px;
+}
+
+.resume--body--proglang--card--summary {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	background-color: #41b9a8;
+	color: #fff;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.resume--body--proglang--card--summary h1 {
+	margin-bottom: 0;
+}
+
+.resume--body--proglang--summary--details {
+	display: flex;
+	padding: 20px;
+	align-items: center;
+}
+
+.resume--body--proglang--summary--details p {
+	color: #fff;
+	text-align: left;
+}
+
+.resume--body--proglang--summary--details .fa {
+	color: #fff;
+	background-color: #43de43;
+	padding: 15px;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+	margin: 10px;
+	border-radius: 100%;
 }

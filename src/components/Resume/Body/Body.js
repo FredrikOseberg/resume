@@ -11,6 +11,7 @@ const Body = props => (
 						name={programmingLanguage.name}
 						key={programmingLanguage.id}
 						img={programmingLanguage.img}
+						skills={programmingLanguage.skills}
 					/>
 				);
 			})}

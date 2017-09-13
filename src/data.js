@@ -85,12 +85,46 @@ const data = {
 		{
 			name: 'HTML5',
 			img: htmlImage,
-			id: 2
+			id: 2,
+			skills: [
+				{
+					name: 'Core Language',
+					rating: 85,
+					description: '',
+					id: 1
+				}
+			]
 		},
 		{
 			name: 'CSS3',
 			img: cssImage,
-			id: 3
+			id: 3,
+			skills: [
+				{
+					name: 'Core Language',
+					rating: 80,
+					description: '',
+					id: 1
+				},
+				{
+					name: 'Flexbox',
+					rating: 60,
+					description: '',
+					id: 2
+				},
+				{
+					name: 'Box Model',
+					rating: 90,
+					description: '',
+					id: 3
+				},
+				{
+					name: 'Fonts and Text',
+					rating: 90,
+					description: '',
+					id: 4
+				}
+			]
 		}
 	],
 	education: [
