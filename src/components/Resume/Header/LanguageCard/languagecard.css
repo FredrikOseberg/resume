@@ -1,0 +1,61 @@
+.resume--language--card {
+	background-color: #fff;
+	height: 50px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 10px;
+	padding: 10px;
+}
+
+.resume--language--card--image {
+	width: 50px;
+	height: 30px;
+	border-radius: 3px;
+	margin-left: 10px;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.resume--language--card--name {
+	display: flex;
+	align-items: center;
+	width: 30px;
+}
+
+.resume--language--card h4 {
+	color: #000;
+	margin-left: 10px;
+}
+
+.resume--language--card--level p {
+	color: #5a5a5a;
+}
+
+.resume--language--card .fa {
+	color: #fff;
+	margin-right: 10px;
+	border-radius: 100%;
+	background-color: #01a201;
+	padding: 5px;
+}
+
+@media (max-width: 585px) {
+	.resume--language--card {
+		flex-direction: column;
+		height: auto;
+		width: 200px;
+		margin: 20px;
+	}
+	.resume--language--card--name {
+		width: 100%;
+		justify-content: center;
+	}
+	.resume--language--card--image {
+		margin: 0;
+	}
+	.resume--language--card .fa {
+		margin-top: 5px;
+	}
+}

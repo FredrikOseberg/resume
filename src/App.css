@@ -1,0 +1,9 @@
+@import './components/Resume/Header/header.css';
+@import './components/Resume/Header/Bio/bio.css';
+@import './components/Resume/Header/LanguageCard/languagecard.css';
+@import './components/Resume/Body/body.css';
+@import './components/Resume/Body/ProglangCard/proglangcard.css';
+
+.App {
+  text-align: center;
+}

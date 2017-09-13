@@ -1,0 +1,71 @@
+.resume--header {
+	width: 100%;
+	padding: 60px 0 80px 0;
+	background-color: #004e92;
+	color: #fff;
+}
+
+.resume--header--h1 {
+	margin-top: 0;
+	font-size: 2.5em;
+	padding-bottom: 40px;
+}
+
+.resume--header--wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.resume--header--languages {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 100%;
+	max-width: 500px;
+	padding: 0 20px;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	margin: 0 20px;
+}
+
+.resume--header--languages h1 {
+	margin-bottom: 0;
+}
+
+.resume--header--languages--wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+}
+
+@media (max-width: 875px) {
+	.resume--header--wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.resume--header--languages {
+		order: 2;
+	}
+}
+
+@media (max-width: 875px) {
+	.resume--header--languages {
+		margin-top: 40px;
+		padding-bottom: 40px;
+	}
+}
+
+@media (max-width: 585px) {
+	.resume--header--languages {
+		align-items: center;
+		width: 80%;
+	}
+}
+
+@media (max-width: 485px) {
+	.resume--header--languages {
+		padding-bottom: 40px;
+	}
+}
