@@ -4,6 +4,7 @@
 @import './components/Resume/Body/body.css';
 @import './components/Resume/Body/ProglangCard/proglangcard.css';
 @import './components/Resume/Body/ProglangCard/ProglangCardDetail/proglangcarddetail.css';
+@import './components/Resume/Body/EducationCard/educationcard.css';
 
 .App {
   text-align: center;

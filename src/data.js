@@ -4,6 +4,7 @@ import englishFlag from './img/unitedkingdom.jpg';
 import jsImage from './img/jslogo.png';
 import htmlImage from './img/html5.png';
 import cssImage from './img/css3.png';
+import lillehammer from './img/lillehammer.jpg';
 
 const data = {
 	user: {
@@ -41,6 +42,9 @@ const data = {
 	programmingLanguages: [
 		{
 			name: 'Javascript',
+			description:
+				'Ready for entry level frontend developer jobs. Good analytical skills. Good knowledge of\
+								core language. In the process of gaining knowledge of React, redux and webpack.',
 			img: jsImage,
 			id: 1,
 			skills: [
@@ -84,6 +88,8 @@ const data = {
 		},
 		{
 			name: 'HTML5',
+			description:
+				'Very knowledgeable of HTML. Well versed in constructing sensible documents and markup for web pages.',
 			img: htmlImage,
 			id: 2,
 			skills: [
@@ -97,6 +103,8 @@ const data = {
 		},
 		{
 			name: 'CSS3',
+			description:
+				'Very knowledgable in CSS. Used to building web pages with CSS/SASS and Bootstrap. Recently been using a lot of flexbox to build UIs. In fact this one is built completely on flexbox. ',
 			img: cssImage,
 			id: 3,
 			skills: [
@@ -123,6 +131,24 @@ const data = {
 					rating: 90,
 					description: '',
 					id: 4
+				},
+				{
+					name: 'Boostrap',
+					rating: 90,
+					description: '',
+					id: 5
+				},
+				{
+					name: 'SASS',
+					rating: 80,
+					description: '',
+					id: 6
+				},
+				{
+					name: 'Animations',
+					rating: 40,
+					description: '',
+					id: 7
 				}
 			]
 		}
@@ -132,13 +158,17 @@ const data = {
 			name: 'Bachelor in Psychology',
 			institution: 'Lillehammer University College',
 			startYear: 2013,
-			endYear: 2016
+			endYear: 2016,
+			img: lillehammer,
+			id: 1
 		},
 		{
-			name: 'Bachelor of Business Administration',
+			name: 'Bachelor in Business Adm',
 			institution: 'Lillehammer University College',
 			startYear: 2010,
-			endYear: 2013
+			endYear: 2013,
+			img: lillehammer,
+			id: 2
 		}
 	],
 	projects: [
