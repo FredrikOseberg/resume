@@ -5,6 +5,9 @@
 @import './components/Resume/Body/ProglangCard/proglangcard.css';
 @import './components/Resume/Body/ProglangCard/ProglangCardDetail/proglangcarddetail.css';
 @import './components/Resume/Body/EducationCard/educationcard.css';
+@import './components/Resume/Body/CertificationCard/certificationcard.css';
+@import './components/Resume/Body/CertificationCard/CertProjectDetail/certprojectdetails.css';
+@import './components/Resume/Body/WorkExperienceCard/workexperiencecard.css';
 
 .App {
   text-align: center;

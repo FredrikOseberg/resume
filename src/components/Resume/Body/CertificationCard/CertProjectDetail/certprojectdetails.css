@@ -1,0 +1,20 @@
+.resume--body--certification--project--details {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2px 10px;
+}
+
+.resume--body--certification--project--details:nth-child(even) {
+	background-color: #ededed;
+}
+
+.resume--body--certification--project--details:nth-child(odd) p {
+	color: #5a5a67;
+}
+
+.resume--body--certification--project--details--links .fa {
+	font-size: 1.2em;
+	padding: 0 10px;
+	color: #000;
+}

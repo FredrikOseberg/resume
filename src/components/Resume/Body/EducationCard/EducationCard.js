@@ -19,7 +19,7 @@ const EducationCard = props => (
 			</div>
 			<div className="resume--body--education--spacer" />
 			<div className="resume--body--education--card--university">
-				<img src={props.img} className="resume--body--education--card--image" />
+				<img src={props.img} className="resume--body--education--card--image" alt={props.institution} />
 				<p>{props.institution}</p>
 			</div>
 		</div>

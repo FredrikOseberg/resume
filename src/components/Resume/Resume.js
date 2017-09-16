@@ -5,7 +5,7 @@ import data from '../../data.js';
 
 class Resume extends Component {
 	headerData = [data.user, data.lang];
-	bodyData = [data.programmingLanguages, data.education];
+	bodyData = [data.programmingLanguages, data.education, data.certifications, data.workExperience];
 	render() {
 		return (
 			<div id="resume">

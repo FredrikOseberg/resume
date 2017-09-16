@@ -1,0 +1,107 @@
+.resume--body--certification--card {
+	background-color: #fff;
+	width: 100%;
+	max-width: 500px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.resume--body--certification--header {
+	background-color: #2a3552;
+	padding: 20px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.resume--body--certification--header h3 {
+	margin: 0;
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.resume--body--certification--card--wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.resume--body--certification--card img {
+	height: 80px;
+	width: 80px;
+	border-radius: 100%;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+	margin-right: 15px;
+}
+
+.resume--body--certification--card--details {
+	text-align: left;
+}
+
+.resume--body--certification--card--wrapper .fa {
+	color: #5a5a67;
+	font-size: 1.4em;
+}
+
+.resume--body--certification--card--wrapper .fa:hover {
+	cursor: pointer;
+}
+
+.rotate--chevron {
+	animation-name: rotate-chevron;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes rotate-chevron {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(180deg);
+	}
+}
+
+.resume--body--certification--card--details-p {
+	color: #5a5a67;
+}
+
+/* CERTIFICATION CARD PROJECTS */
+.resume--body--certification--card--projects--wrapper {
+	transition: all 0.9s ease;
+	visibility: hidden;
+	display: flex;
+	overflow-y: hidden;
+	height: 0;
+	opacity: 0;
+	flex-direction: column;
+}
+
+.resume--body--certification--card--projects--wrapper.display--details {
+	height: auto;
+	opacity: 1;
+	visibility: visible;
+}
+
+.resume--body--certification--card--projects h3 {
+	color: #fff;
+	font-size: 1.3em;
+	padding: 20px;
+	margin: 0;
+	background-color: #ec6868;
+}
+
+.resume--body--certification--card--link--div {
+	background-color: #2a3552;
+	padding: 20px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.resume--body--certification--card--link {
+	color: #fff;
+	font-size: 1.3em;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 'Satisfy';
+}

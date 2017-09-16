@@ -5,6 +5,11 @@ import jsImage from './img/jslogo.png';
 import htmlImage from './img/html5.png';
 import cssImage from './img/css3.png';
 import lillehammer from './img/lillehammer.jpg';
+import freecodecamp from './img/freecodecamp.jpg';
+import toppen from './img/toppen.jpg';
+import avidyx from './img/avidyxlogo.jpg';
+import prolific from './img/prolific.JPG';
+import humanResources from './img/hr2.jpeg';
 
 const data = {
 	user: {
@@ -163,12 +168,96 @@ const data = {
 			id: 1
 		},
 		{
-			name: 'Bachelor in Business Adm',
+			name: 'Bachelor in Business Administration',
 			institution: 'Lillehammer University College',
 			startYear: 2010,
 			endYear: 2013,
 			img: lillehammer,
 			id: 2
+		}
+	],
+	certifications: [
+		{
+			issuer: 'FreeCodeCamp',
+			date: '22 August, 2017',
+			img: freecodecamp,
+			name: 'Frontend Developer',
+			link: 'https://www.freecodecamp.org/fredrikoseberg/front-end-certification',
+			projects: [
+				{
+					name: 'Tribute Page',
+					github: '',
+					codepen: 'https://codepen.io/khare/pen/oWWwav',
+					id: 1
+				},
+				{
+					name: 'Portfolio Page',
+					github: '',
+					codepen: 'https://codepen.io/khare/pen/mmwrWR',
+					id: 2
+				},
+				{
+					name: 'Wikipedia Viewer',
+					github: 'https://github.com/FredrikOseberg/wikipedia-viewer',
+					codepen: 'https://codepen.io/khare/pen/yXzzxg',
+					id: 3
+				},
+				{
+					name: 'Quotemachine',
+					github: '',
+					codepen: 'https://codepen.io/khare/pen/vmpKvj',
+					id: 4
+				},
+				{
+					name: 'Twitch JSON Api',
+					github: 'https://github.com/FredrikOseberg/twitch-json-api',
+					codepen: 'https://codepen.io/khare/pen/YQvXdq',
+					id: 5
+				},
+				{
+					name: 'Weather App',
+					github: 'https://github.com/FredrikOseberg/weather-app',
+					codepen: 'https://codepen.io/khare/pen/vmaVqV',
+					id: 6
+				},
+				{
+					name: 'Calculator',
+					github: 'https://github.com/FredrikOseberg/calculator',
+					codepen: 'https://codepen.io/khare/pen/NvNwze',
+					id: 7
+				},
+				{
+					name: 'Tic Tac Toe',
+					github: 'https://github.com/FredrikOseberg/tictactoe',
+					codepen: 'https://codepen.io/khare/pen/LjQMVp',
+					id: 8
+				},
+				{
+					name: 'Pomodoro Clock',
+					github: 'https://github.com/FredrikOseberg/pomodoro',
+					codepen: 'https://codepen.io/khare/pen/dzdwGX',
+					id: 9
+				},
+				{
+					name: 'Simon Game',
+					github: 'https://github.com/FredrikOseberg/simon',
+					codepen: 'https://codepen.io/khare/pen/ZJoBpY',
+					id: 10
+				},
+				{
+					name: 'Basic Algorithmic Scripting',
+					github: 'https://github.com/FredrikOseberg/fcc-scripting-challenges',
+					codepen: '',
+					id: 11
+				},
+				{
+					name: 'Intermediate Algorithmic Scripting',
+					github: 'https://github.com/FredrikOseberg/fcc-scripting-challenges',
+					codepen: '',
+					id: 12
+				}
+			],
+			id: 1
 		}
 	],
 	projects: [
@@ -191,9 +280,106 @@ const data = {
 	workExperience: [
 		{
 			title: 'Founder / CTO at Avidyx',
-			description: '',
-			startDate: '',
-			endDate: ''
+			img: avidyx,
+			description:
+				'Founder and CTO of Avidyx. A company that aimed to create a platform for adventure tourism operators.',
+			workTasks: [
+				'Product Development',
+				'Managing developers abroad.',
+				'Programming',
+				'MVP Development',
+				'Product Testing',
+				'Event Planning and Execution'
+			],
+			startDate: 'March 2014',
+			endDate: 'August 2017',
+			all: true,
+			highlight: true,
+			management: true,
+			coding: true,
+			id: 1
+		},
+		{
+			title: 'Manager at Toppen Bar',
+			img: toppen,
+			description:
+				'Bar Manager of Toppen Bar. Toppen Bar is a high-class cocktail bar located in Lillehammer, Norway.',
+			workTasks: [
+				'Strategy Development',
+				'Daily bar management',
+				'Hiring and training new employees',
+				'Managing information flow',
+				'Ordering wares',
+				'restocking the bar',
+				'Programming warehouse system'
+			],
+			startDate: 'August 2016',
+			endDate: 'July 2017',
+			all: true,
+			highlight: true,
+			management: true,
+			coding: false,
+			id: 2
+		},
+		{
+			title: 'Bartender at Toppen Bar',
+			img: toppen,
+			description:
+				'Bartender at Toppen Bar. Break for one year between 2014 and 2015 to focus on my own firm. Started again in June 2015.',
+			workTasks: ['Mixing drinks', 'Serving Customers', 'Making sure Norwegian drinking laws are followed'],
+			startDate: 'August 2012',
+			endDate: 'August 2016',
+			all: true,
+			highlight: false,
+			management: false,
+			coding: false,
+			id: 3
+		},
+		{
+			title: 'Crew on Expedition to Jan Mayen',
+			img: prolific,
+			description:
+				'Worked as crew on sailboat to Jan Mayen. Transporting scientist to Jan Mayen in order to research whales.',
+			workTasks: ['Maintaining Ship', 'Simple Navigation', 'Sail Reefing', 'Repairing equipment'],
+			startDate: 'June 2015',
+			endDate: 'June 2015',
+			all: true,
+			highlight: true,
+			management: false,
+			coding: false,
+			id: 4
+		},
+		{
+			title: 'HR Consultant FMC Technologies',
+			img: humanResources,
+			description:
+				'Wrote my bachelors thesis for FMC Technologies in 2013 on Training and Development of new employees. Continued working on a pilot project the ensuing summer.',
+			workTasks: [
+				'Analysis of Training and Development practices',
+				'Development of new initiatives to measure performance',
+				'Interviewing team members',
+				'Execution of new initiatives'
+			],
+			startDate: 'December 2012',
+			endDate: 'Summer 2013',
+			all: true,
+			highlight: false,
+			management: true,
+			coding: false,
+			id: 5
+		},
+		{
+			title: 'Bartender at Nikkers',
+			img: toppen,
+			description: 'Worked as a bartender and waiter at Nikkers restaurant and bar in Lillehammer.',
+			workTasks: ['Mixing drinks', 'Serving Customers', 'Making sure Norwegian drinking laws are followed'],
+			startDate: 'Oktober 2010',
+			endDate: 'August 2012',
+			all: true,
+			highlight: false,
+			management: false,
+			coding: false,
+			id: 6
 		}
 	]
 };
