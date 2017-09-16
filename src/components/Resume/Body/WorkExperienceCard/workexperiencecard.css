@@ -43,6 +43,8 @@
 .resume--body--workexperience--worktasks--list {
 	width: 100%;
 	text-align: left;
+	margin: 0 0 0 10px;
+	padding: 0;
 }
 
 .resume--body--workexperience--worktasks--list li {

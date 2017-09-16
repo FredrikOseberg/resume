@@ -5,29 +5,20 @@ class CertificationCard extends Component {
 	constructor() {
 		super();
 
-		this.handleClickedExpand = this.handleClickedExpand.bind(this);
-		this.addClasses = this.addClasses.bind(this);
-
 		this.state = {
-			clickedExpand: false,
-			classes: 'resume--body--certification--card--projects--wrapper',
-			chevronClasses: 'fa fa-chevron-down'
+			clickedExpand: true
 		};
 	}
 
-	handleClickedExpand() {
+	handleClickedExpand = () => {
 		this.setState({ clickedExpand: !this.state.clickedExpand }, this.addClasses);
-	}
-	addClasses() {
-		if (this.state.clickedExpand) {
-			this.setState({ classes: 'resume--body--certification--card--projects--wrapper display--details' });
-			this.setState({ chevronClasses: 'fa fa-chevron-down rotate--chevron' });
-		} else {
-			this.setState({ classes: 'resume--body--certification--card--projects--wrapper' });
-			this.setState({ chevronClasses: 'fa fa-chevron-down' });
-		}
-	}
+	};
+
 	render() {
+		const certCardDisplay = this.state.clickedExpand
+			? 'resume--body--certification--card--projects--wrapper display--details'
+			: 'resume--body--certification--card--projects--wrapper';
+		const chevronClasses = this.state.clickedExpand ? 'fa fa-chevron-down rotate--chevron' : 'fa fa-chevron-down';
 		return (
 			<div className="resume--body--certification--card">
 				<div className="resume--body--certification--header">
@@ -39,9 +30,9 @@ class CertificationCard extends Component {
 						<p className="resume--body--certification--card--details-p">Date received: {this.props.date}</p>
 						<p className="resume--body--certification--card--details-p">Issuer: {this.props.issuer}</p>
 					</div>
-					<i className={this.state.chevronClasses} aria-hidden="true" onClick={this.handleClickedExpand} />
+					<i className={chevronClasses} aria-hidden="true" onClick={this.handleClickedExpand} />
 				</div>
-				<div className={this.state.classes}>
+				<div className={certCardDisplay}>
 					<div className="resume--body--certification--card--projects">
 						<h3>Mandatory Projects</h3>
 						{this.props.projects.map(project => {

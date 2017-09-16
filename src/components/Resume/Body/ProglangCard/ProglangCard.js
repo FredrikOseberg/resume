@@ -5,16 +5,14 @@ class ProglangCard extends Component {
 	constructor() {
 		super();
 
-		this.handleClickedExpand = this.handleClickedExpand.bind(this);
-
 		this.state = {
-			clickedExpand: false
+			clickedExpand: true
 		};
 	}
 
-	handleClickedExpand() {
+	handleClickedExpand = () => {
 		this.setState({ clickedExpand: !this.state.clickedExpand });
-	}
+	};
 	render() {
 		const wrapperClasses = this.state.clickedExpand
 			? 'resume--body--proglang--details--wrapper display--details'
