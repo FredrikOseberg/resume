@@ -47,51 +47,6 @@ const data = {
 	],
 	programmingLanguages: [
 		{
-			name: 'Javascript',
-			description:
-				'Ready for entry level frontend developer jobs. Good analytical skills. Good knowledge of core language. In the process of gaining knowledge of React, redux and webpack.',
-			img: jsImage,
-			id: 1,
-			skills: [
-				{
-					name: 'Core Language',
-					rating: 70,
-					description: 'Knowledgable',
-					id: 1
-				},
-				{
-					name: 'ES6',
-					rating: 60,
-					description: 'Knowledgable',
-					id: 2
-				},
-				{
-					name: 'Webpack',
-					rating: 20,
-					description: 'Limited Knowledge',
-					id: 3
-				},
-				{
-					name: 'React',
-					rating: 50,
-					description: 'Somewhat Knowledgable',
-					id: 4
-				},
-				{
-					name: 'Redux',
-					rating: 10,
-					description: 'Limited Knowledge',
-					id: 5
-				},
-				{
-					name: 'NodeJS',
-					rating: 0,
-					description: 'No current knowledge',
-					id: 6
-				}
-			]
-		},
-		{
 			name: 'HTML5',
 			description:
 				'Very knowledgeable of HTML. Well versed in constructing sensible documents and markup for web pages.',
@@ -172,6 +127,51 @@ const data = {
 					rating: 40,
 					description: '',
 					id: 7
+				}
+			]
+		},
+		{
+			name: 'Javascript',
+			description:
+				'Ready for entry level frontend developer jobs. Good analytical skills. Good knowledge of core language. In the process of gaining knowledge of React, redux and webpack.',
+			img: jsImage,
+			id: 1,
+			skills: [
+				{
+					name: 'Core Language',
+					rating: 70,
+					description: 'Knowledgable',
+					id: 1
+				},
+				{
+					name: 'ES6',
+					rating: 60,
+					description: 'Knowledgable',
+					id: 2
+				},
+				{
+					name: 'Webpack',
+					rating: 20,
+					description: 'Limited Knowledge',
+					id: 3
+				},
+				{
+					name: 'React',
+					rating: 50,
+					description: 'Somewhat Knowledgable',
+					id: 4
+				},
+				{
+					name: 'Redux',
+					rating: 10,
+					description: 'Limited Knowledge',
+					id: 5
+				},
+				{
+					name: 'NodeJS',
+					rating: 0,
+					description: 'No current knowledge',
+					id: 6
 				}
 			]
 		}
