@@ -26,6 +26,7 @@
 	padding: 0 20px;
 	border: 1px solid #fff;
 	border-radius: 3px;
+	margin-right: 25px;
 }
 
 .resume--header--languages h1 {
@@ -47,6 +48,10 @@
 
 	.resume--header--languages {
 		order: 2;
+	}
+
+	.resume--header--languages {
+		margin-right: 0;
 	}
 }
 
