@@ -33,10 +33,6 @@
 	align-items: center;
 }
 
-.resume--body--education--card--header h1 {
-	padding: 0 100px;
-}
-
 .resume--body--education--card--details {
 	background-color: #ededed;
 }
