@@ -11,7 +11,7 @@ const WorkExperienceCard = props => (
 			<h2>Work Tasks</h2>
 			<ul className="resume--body--workexperience--worktasks--list">
 				{props.tasks.map(task => {
-					return <li>{task}</li>;
+					return <li key={task.id}>{task.name}</li>;
 				})}
 			</ul>
 		</div>

@@ -10,6 +10,7 @@ import toppen from './img/toppen.jpg';
 import avidyx from './img/avidyxlogo.jpg';
 import prolific from './img/prolific.JPG';
 import humanResources from './img/hr2.jpeg';
+import bartender from './img/bartender.jpeg';
 
 const data = {
 	user: {
@@ -48,8 +49,7 @@ const data = {
 		{
 			name: 'Javascript',
 			description:
-				'Ready for entry level frontend developer jobs. Good analytical skills. Good knowledge of\
-								core language. In the process of gaining knowledge of React, redux and webpack.',
+				'Ready for entry level frontend developer jobs. Good analytical skills. Good knowledge of core language. In the process of gaining knowledge of React, redux and webpack.',
 			img: jsImage,
 			id: 1,
 			skills: [
@@ -73,7 +73,7 @@ const data = {
 				},
 				{
 					name: 'React',
-					rating: 40,
+					rating: 50,
 					description: 'Somewhat Knowledgable',
 					id: 4
 				},
@@ -103,6 +103,24 @@ const data = {
 					rating: 85,
 					description: '',
 					id: 1
+				},
+				{
+					name: 'Markup Construction',
+					rating: 90,
+					description: '',
+					id: 2
+				},
+				{
+					name: 'Tag Knowledge',
+					rating: 80,
+					description: '',
+					id: 3
+				},
+				{
+					name: 'Form Construction',
+					rating: 90,
+					description: '',
+					id: 4
 				}
 			]
 		},
@@ -284,12 +302,18 @@ const data = {
 			description:
 				'Founder and CTO of Avidyx. A company that aimed to create a platform for adventure tourism operators.',
 			workTasks: [
-				'Product Development',
-				'Managing developers abroad.',
-				'Programming',
-				'MVP Development',
-				'Product Testing',
-				'Event Planning and Execution'
+				{
+					name: 'Product Development',
+					id: 1
+				},
+				{
+					name: 'Managing developers abroad.',
+					id: 2
+				},
+				{ name: 'Programming', id: 3 },
+				{ name: 'MVP Development', id: 4 },
+				{ name: 'Product Testing', id: 5 },
+				{ name: 'Event Planning and Execution', id: 6 }
 			],
 			startDate: 'March 2014',
 			endDate: 'August 2017',
@@ -305,13 +329,13 @@ const data = {
 			description:
 				'Bar Manager of Toppen Bar. Toppen Bar is a high-class cocktail bar located in Lillehammer, Norway.',
 			workTasks: [
-				'Strategy Development',
-				'Daily bar management',
-				'Hiring and training new employees',
-				'Managing information flow',
-				'Ordering wares',
-				'restocking the bar',
-				'Programming warehouse system'
+				{ name: 'Strategy Development', id: 1 },
+				{ name: 'Daily bar management', id: 2 },
+				{ name: 'Hiring and training new employees', id: 3 },
+				{ name: 'Managing information flow', id: 4 },
+				{ name: 'Ordering wares', id: 5 },
+				{ name: 'restocking the bar', id: 6 },
+				{ name: 'Programming warehouse system', id: 7 }
 			],
 			startDate: 'August 2016',
 			endDate: 'July 2017',
@@ -326,7 +350,11 @@ const data = {
 			img: toppen,
 			description:
 				'Bartender at Toppen Bar. Break for one year between 2014 and 2015 to focus on my own firm. Started again in June 2015.',
-			workTasks: ['Mixing drinks', 'Serving Customers', 'Making sure Norwegian drinking laws are followed'],
+			workTasks: [
+				{ name: 'Mixing drinks', id: 1 },
+				{ name: 'Serving Customers', id: 2 },
+				{ name: 'Making sure Norwegian drinking laws are followed', id: 3 }
+			],
 			startDate: 'August 2012',
 			endDate: 'August 2016',
 			all: true,
@@ -340,7 +368,12 @@ const data = {
 			img: prolific,
 			description:
 				'Worked as crew on sailboat to Jan Mayen. Transporting scientist to Jan Mayen in order to research whales.',
-			workTasks: ['Maintaining Ship', 'Simple Navigation', 'Sail Reefing', 'Repairing equipment'],
+			workTasks: [
+				{ name: 'Maintaining Ship', id: 1 },
+				{ name: 'Simple Navigation', id: 2 },
+				{ name: 'Sail Reefing', id: 3 },
+				{ name: 'Repairing equipment', id: 4 }
+			],
 			startDate: 'June 2015',
 			endDate: 'June 2015',
 			all: true,
@@ -355,10 +388,10 @@ const data = {
 			description:
 				'Wrote my bachelors thesis for FMC Technologies in 2013 on Training and Development of new employees. Continued working on a pilot project the ensuing summer.',
 			workTasks: [
-				'Analysis of Training and Development practices',
-				'Development of new initiatives to measure performance',
-				'Interviewing team members',
-				'Execution of new initiatives'
+				{ name: 'Analysis of Training and Development practices', id: 1 },
+				{ name: 'Development of new initiatives to measure performance', id: 2 },
+				{ name: 'Interviewing team members', id: 3 },
+				{ name: 'Execution of new initiatives', id: 4 }
 			],
 			startDate: 'December 2012',
 			endDate: 'Summer 2013',
@@ -370,9 +403,13 @@ const data = {
 		},
 		{
 			title: 'Bartender at Nikkers',
-			img: toppen,
+			img: bartender,
 			description: 'Worked as a bartender and waiter at Nikkers restaurant and bar in Lillehammer.',
-			workTasks: ['Mixing drinks', 'Serving Customers', 'Making sure Norwegian drinking laws are followed'],
+			workTasks: [
+				{ name: 'Mixing drinks', id: 1 },
+				{ name: 'Serving Customers', id: 2 },
+				{ name: 'Making sure Norwegian drinking laws are followed', id: 3 }
+			],
 			startDate: 'Oktober 2010',
 			endDate: 'August 2012',
 			all: true,
