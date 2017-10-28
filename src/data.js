@@ -139,31 +139,31 @@ const data = {
 			skills: [
 				{
 					name: 'Core Language',
-					rating: 70,
+					rating: 80,
 					description: 'Knowledgable',
 					id: 1
 				},
 				{
 					name: 'ES6',
-					rating: 60,
+					rating: 75,
 					description: 'Knowledgable',
 					id: 2
 				},
 				{
 					name: 'Webpack',
-					rating: 20,
+					rating: 30,
 					description: 'Limited Knowledge',
 					id: 3
 				},
 				{
 					name: 'React',
-					rating: 50,
+					rating: 75,
 					description: 'Somewhat Knowledgable',
 					id: 4
 				},
 				{
 					name: 'Redux',
-					rating: 10,
+					rating: 50,
 					description: 'Limited Knowledge',
 					id: 5
 				},
